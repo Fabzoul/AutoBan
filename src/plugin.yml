@@ -1,0 +1,16 @@
+name: AutoBan
+main: fr.ralmn.AutoBan.AB
+version: 1.0
+
+commands:
+    autoban:
+        description: command autoBan
+        usage: /<command>
+        
+Permissions:
+    autoban.*:
+        children:
+            autoban.admin: true
+    autoban.admin:
+        default: op
+
